@@ -1,0 +1,24 @@
+.header {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(80, 74, 95);
+    color: #fff;
+    position: relative;
+    .title {
+        margin: 0;
+    }
+
+    .nav {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+
+        li {
+            display: inline-block; 
+            margin: 0 10px;
+        }
+    }
+}
